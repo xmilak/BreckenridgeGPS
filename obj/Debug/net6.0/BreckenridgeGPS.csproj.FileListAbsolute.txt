@@ -1,0 +1,15 @@
+C:\Users\18135\Desktop\repos\BreckenridgeGPS\bin\Debug\net6.0\BreckenridgeGPS.exe
+C:\Users\18135\Desktop\repos\BreckenridgeGPS\bin\Debug\net6.0\BreckenridgeGPS.deps.json
+C:\Users\18135\Desktop\repos\BreckenridgeGPS\bin\Debug\net6.0\BreckenridgeGPS.runtimeconfig.json
+C:\Users\18135\Desktop\repos\BreckenridgeGPS\bin\Debug\net6.0\BreckenridgeGPS.dll
+C:\Users\18135\Desktop\repos\BreckenridgeGPS\bin\Debug\net6.0\BreckenridgeGPS.pdb
+C:\Users\18135\Desktop\repos\BreckenridgeGPS\obj\Debug\net6.0\BreckenridgeGPS.csproj.AssemblyReference.cache
+C:\Users\18135\Desktop\repos\BreckenridgeGPS\obj\Debug\net6.0\BreckenridgeGPS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\18135\Desktop\repos\BreckenridgeGPS\obj\Debug\net6.0\BreckenridgeGPS.AssemblyInfoInputs.cache
+C:\Users\18135\Desktop\repos\BreckenridgeGPS\obj\Debug\net6.0\BreckenridgeGPS.AssemblyInfo.cs
+C:\Users\18135\Desktop\repos\BreckenridgeGPS\obj\Debug\net6.0\BreckenridgeGPS.csproj.CoreCompileInputs.cache
+C:\Users\18135\Desktop\repos\BreckenridgeGPS\obj\Debug\net6.0\BreckenridgeGPS.dll
+C:\Users\18135\Desktop\repos\BreckenridgeGPS\obj\Debug\net6.0\refint\BreckenridgeGPS.dll
+C:\Users\18135\Desktop\repos\BreckenridgeGPS\obj\Debug\net6.0\BreckenridgeGPS.pdb
+C:\Users\18135\Desktop\repos\BreckenridgeGPS\obj\Debug\net6.0\BreckenridgeGPS.genruntimeconfig.cache
+C:\Users\18135\Desktop\repos\BreckenridgeGPS\obj\Debug\net6.0\ref\BreckenridgeGPS.dll
