@@ -14,14 +14,38 @@ Console.WriteLine("Press 5. to find out which trails to take to get to parking g
 string input = Console.ReadLine();
 int option = int.Parse(input);
 
-//Peak_8.GetAllTrails();
+var peaks = new List<Peak>();
+
+var peak8 = new Peak
+{
+    PeakNumber = 8,
+    Name = "Peak 8",
+    Trails = Seed.GetAllPeak8Trails()
+};
+
+var peak9 = new Peak
+{
+    PeakNumber = 9,
+    Name = "Peak 9",
+    Trails = Seed.GetAllPeak9Trails()
+};
+
+peaks.Add(peak8);
+peaks.Add(peak9);
 
 switch (option)
 {
     case 1:
-        Peak_8.GetAllTrails();
+        peak8.GetAllTrails();
         break;
     case 2:
-        Peak_9.GetAllTrails();
+        peak9.GetAllTrails();
+        break;
+    case 3:
+        InfoTrail.DisplayTrailInfo(peaks);
+        break;
+    case 4:GetGondola.DisplayTrailInfo(peaks);
+        break;
+    case 5:Parking.DisplayTrailInfo(peaks);
         break;
 }

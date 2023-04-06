@@ -11,5 +11,7 @@ namespace BreckenridgeGPS
         public string Name { get; set; }
         public string GetTo { get; set; }
         public string Gondola { get; set; }
+        public int TrailNumber { get; set; }
+        public string Parking { get; set; }
     }
 }

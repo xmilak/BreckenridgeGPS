@@ -6,37 +6,32 @@ using System.Threading.Tasks;
 
 namespace BreckenridgeGPS
 {
-    public class InfoTrail
+    public class Parking
     {
         public static void DisplayTrailInfo(List<Peak> peaks)
         {
-            Console.WriteLine("Where is the trail located?" +
-                "Enter 8 for Peak 8." +
-                "Enter 9 for Peak 9");
+            Console.WriteLine("I see that you're trying to get to the parking. " +
+                "What peak are you at please enter a number. ");
 
             int choice = Int32.Parse(Console.ReadLine());
 
             var selectedPeak = peaks.FirstOrDefault(f => f.PeakNumber == choice);
-            
+
             if (selectedPeak == null)
-                Console.WriteLine($"Invalid peak selected.");
+                Console.WriteLine("Invalid peak selected");
 
             selectedPeak.GetAllTrails();
 
-
-
-            Console.WriteLine($"Here's list of trails on Peak {choice}. Pick a number for which trail you would like to get info.");
+            Console.WriteLine($"What traile are you on at Peak {choice}? Pick a number.");
 
             int trailChoice = Int32.Parse(Console.ReadLine());
 
-
             var selectedTrail = selectedPeak.Trails.FirstOrDefault(f => f.TrailNumber == trailChoice);
 
-            if (selectedPeak == null)
-                Console.WriteLine($"Invalid trail selected.");
+            if (selectedTrail == null)
+                Console.WriteLine("Invalid trail selected.");
+            Console.WriteLine(selectedTrail.Parking);
 
-            Console.WriteLine(selectedTrail.GetTo);
         }
-
     }
 }
